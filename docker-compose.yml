@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  520pythonapp:
+    image: 520pythonapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5005:5005
